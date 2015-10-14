@@ -1,3 +1,5 @@
+package se.liu.ida.vikag322.tddd78.tetris;
+
 public class Poly
 {
     private SquareType type;
@@ -10,7 +12,7 @@ public class Poly
         return block;
     }
 
-    public Poly(final SquareType type, final boolean[][] block) {
+    public Poly(SquareType type, boolean[][] block) {
         this.type = type;
         this.block = block;
     }

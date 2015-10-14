@@ -1,5 +1,9 @@
+package se.liu.ida.vikag322.tddd78.tetris;
 
-public class BoardToTextConverter  {
+public final class BoardToTextConverter  {
+
+    private BoardToTextConverter() {}
+
     public static String convertToText(Board board){
 
 	StringBuilder builder = new StringBuilder();

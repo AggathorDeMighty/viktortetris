@@ -1,8 +1,11 @@
+package se.liu.ida.vikag322.tddd78.tetris;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class TetrominoMaker
 {
+    // CODE INSPECTION NOTE I don't want to make these blocks local, this looks better!
     private int numberOfTypes = 0;
 
     private boolean[][] IBlock = {
